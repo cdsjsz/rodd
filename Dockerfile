@@ -1,1 +1,1 @@
-RROM ghcr.io/go-rod/rod:latest
+FROM ghcr.io/go-rod/rod:latest
