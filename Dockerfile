@@ -5,4 +5,4 @@ ADD rod-manager /usr/bin/
 RUN chmod +x /usr/bin/rod-manager
 ENTRYPOINT ["dumb-init", "--"]
 
-CMD rod-manager
+CMD ["rod-manager","--allow-all"]
